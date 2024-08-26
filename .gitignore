@@ -8,3 +8,20 @@ __pycache__/
 # Ignore macOS system files
 .DS_Store
 
+# Ignore PyCharm IDE settings
+.idea/
+
+# Ignore the .env file to keep sensitive information like API keys out of version control
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
+
+# Ignore compiled Python files
+*.pyo
+*.pyd
+
+README.md
