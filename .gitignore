@@ -23,5 +23,3 @@ __pycache__/
 # Ignore compiled Python files
 *.pyo
 *.pyd
-
-README.md
