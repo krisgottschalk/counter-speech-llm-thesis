@@ -1,0 +1,13 @@
+,Criterion,Model Comparison,t-value,p-Value,Cohen's d
+0,clarity_of_argumentation,counter_speech_gpt-4o vs. counter_speech_llama3,0.49365724849494164,0.6252664336285333,0.09012907022553758
+1,clarity_of_argumentation,counter_speech_gpt-4o vs. counter_speech_mistral,4.876722954837876,3.573128372900602e-05,0.890363723022651
+2,clarity_of_argumentation,counter_speech_llama3 vs. counter_speech_mistral,4.418811651829327,0.00012704616542284596,0.8067609396911957
+3,empathy_factor,counter_speech_gpt-4o vs. counter_speech_llama3,-1.0,0.32558198801619365,-0.18257418583505539
+4,empathy_factor,counter_speech_gpt-4o vs. counter_speech_mistral,3.119755873835126,0.004069703036845092,0.56958688866958
+5,empathy_factor,counter_speech_llama3 vs. counter_speech_mistral,3.7980427969915884,0.0006902928747923668,0.6934245714274357
+6,fidelity_to_facts,counter_speech_gpt-4o vs. counter_speech_llama3,1.184578324321196,0.2458019870033875,0.21627342312079653
+7,fidelity_to_facts,counter_speech_gpt-4o vs. counter_speech_mistral,7.107469945927177,8.05301448455105e-08,1.2976405387247794
+8,fidelity_to_facts,counter_speech_llama3 vs. counter_speech_mistral,5.2141634036535525,1.3987142282801492e-05,0.9519716382329886
+9,tone,counter_speech_gpt-4o vs. counter_speech_llama3,0.37249963873974967,0.7122294376609519,0.06800881826676204
+10,tone,counter_speech_gpt-4o vs. counter_speech_mistral,2.6441332793296883,0.013078432418281419,0.4827504807129929
+11,tone,counter_speech_llama3 vs. counter_speech_mistral,2.6925824035672514,0.011654793675504357,0.4915960401250875

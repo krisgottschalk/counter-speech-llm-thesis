@@ -11,7 +11,7 @@ api_key = os.getenv('OPENAI_API_KEY')
 client = OpenAI(api_key=api_key)
 
 # Load the dataset containing conspiracy theory comments
-df = pd.read_csv('../data/qanon_deepstate_comments.csv', delimiter=';', quotechar='"')
+df = pd.read_csv('../data/qanon_deepstate_comments.csv')
 
 
 # Function to generate counter speech
@@ -43,4 +43,4 @@ def generate_counter_speech(comment):
 df['counter_speech_gpt4-o'] = df['comment_text'].apply(generate_counter_speech)
 
 # Save results to a new file
-df.to_csv('../data/counterspeech_dataset_gpt-4otest.csv', index=False)
+df.to_csv('../data/counterspeech_dataset_gpt-4o.csv', index=False)
